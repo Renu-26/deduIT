@@ -1,4 +1,4 @@
-## Tools Used
+### Tools Used
 - Postman
 - JSONPlaceholder — a fake online REST API for practice
 
@@ -6,27 +6,27 @@ Base URL: `https://jsonplaceholder.typicode.com`
 
 ### GET — Retrieve a post
 
-**Method:** GET
+Method: GET
 
-**URL:** `https://jsonplaceholder.typicode.com/posts/1`
+URL: `https://jsonplaceholder.typicode.com/posts/1`
 
 A JSON response containing post details.
 
 ### Query Parameters
 
-**Method:** GET
+Method: GET
 
-**URL:** `https://jsonplaceholder.typicode.com/posts?userId=1`
+URL: `https://jsonplaceholder.typicode.com/posts?userId=1`
 
 A list of posts associated with user ID 1.
 
 ### POST — Create a post
 
-**Method:** POST
+Method: POST
 
-**URL:** `https://jsonplaceholder.typicode.com/posts`
+URL: `https://jsonplaceholder.typicode.com/posts`
 
-**Body:**
+Body:
 ```json
 {
   "title": "Learning Postman",
@@ -35,33 +35,33 @@ A list of posts associated with user ID 1.
 }
 ```
 
-**Output status:** `201 Created`
+Output status: `201 Created`
 
 POST sends data to request creation of a resource.
 
 ### PATCH — Update a post
 
-**Method:** PATCH
+Method: PATCH
 
-**URL:** `https://jsonplaceholder.typicode.com/posts/1`
+URL: `https://jsonplaceholder.typicode.com/posts/1`
 
-**Body:**
+Body:
 ```json
 {
   "title": "My Updated Title"
 }
 ```
 
-**Output status:** `200 OK`
+Output status: `200 OK`
 
 PATCH requests a partial update to an existing resource.
 
 ###  DELETE — Delete a post
 
-**Method:** DELETE
+Method: DELETE
 
-**URL:** `https://jsonplaceholder.typicode.com/posts/1`
+URL: `https://jsonplaceholder.typicode.com/posts/1`
 
-**Body:** Empty
+Body: Empty
 
 DELETE requests removal of a resource identified by the URL.
